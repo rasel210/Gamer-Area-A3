@@ -10,14 +10,18 @@
 /* header section style */
 .nav-logo{
   display: flex;
+  width: 0px 300px;
 
+}
+.nav-subtitle{
+  margin-left: 30%;
 }
 .nav-section{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 40px 300px;
-  
+  gap: 40px;
+
 }
   
 nav ul{
@@ -38,7 +42,7 @@ nav ul{
 .nav-img{
   width: 86.041px;
   height: 40px;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 .logo-button{
   display: flex;
@@ -48,7 +52,7 @@ nav ul{
   background-color:#0b02231a;
   border: none;
   border-radius: 8px;
-  width: 200px;
+  width:200px;
   height: 56px; 
 }
 .button-icon {
@@ -156,10 +160,11 @@ line-height: normal;
   margin-bottom: 120px;
   
   
+  
 }
 .feature-image{
   padding-top: 50px;
-  
+  width: 0 600px;
 }
 .feature-content{
   margin-bottom: 200px;
@@ -169,6 +174,7 @@ line-height: normal;
   font-size: 48px;
   font-weight: 700;
   color: #0B0223;
+ 
 }
 .play{
   color: #F948B2;
@@ -177,12 +183,13 @@ line-height: normal;
   width: 353px;
   color: #534C64;
   text-align: right;
-  font-size: 18px
+  font-size: 18px;
+  
 }
 .short-image{
   position: relative;
   bottom: 250px;
-
+  border: 2px solid;
 }
 
 /* team button style */
