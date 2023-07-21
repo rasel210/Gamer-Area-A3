@@ -16,7 +16,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 200px;
+  padding: 40px 300px;
   
 }
   
@@ -115,7 +115,7 @@ nav ul{
   /* team section style */
   .team-section-title{
     text-align: center;
-    
+  
 }
 .Online{
   color: #0B0223;
@@ -153,6 +153,16 @@ line-height: normal;
   margin-top: 120px;
   gap: 150px;
   padding-left: 100px;
+  margin-bottom: 120px;
+  
+  
+}
+.feature-image{
+  padding-top: 50px;
+  
+}
+.feature-content{
+  margin-bottom: 200px;
 }
 .section-title{
   text-align: right;
@@ -168,6 +178,103 @@ line-height: normal;
   color: #534C64;
   text-align: right;
   font-size: 18px
+}
+.short-image{
+  position: relative;
+  bottom: 250px;
+
+}
+
+/* team button style */
+.team-container{
+  height: 427px;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+}
+.top-button{
+  margin-left: 50px;
+}
+.team-container button{
+      border-radius: 50px;
+      width: 248px;
+      height: 80px;
+      background-color: #FFF;
+      border: none;    
+}
+ .button-text{
+  color: #0B0223;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 5px;
+ }
+.lower-button{
+  margin-top: 80px ;
+  margin-left: 100px;
+}
+/* footer style */
+
+.footer{
+  background-color: black;
+  height: 636px;
+}
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+  gap: 20px;
+}
+.G{
+  color:#FF42A5
+}
+.amer{
+ color: #FFF;
+}
+.footer-img{
+  width: 86.041px;
+  height: 40px;
+  padding-top: 50px;
+}
+.footer-title{
+  font-size: 45px;
+  font-weight: 700;
+}
+.summery-title{
+  display:flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.title-text{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.footer-icon{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+.footer-icon img{
+  width: 40px;
+  height: 40px; 
+}
+.sub-title{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.sub-text{
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.footer-end{
+  color: rgba(255, 255, 255, 0.60);
+  padding-left: 40%;
+  font-size: 16px;
+  font-weight: 500;
 }
   
   
